@@ -5,7 +5,7 @@ public class Product {
 	String promoCode;
 
 	void finalProductPrice() {
-
+		// comments added
 		if (productPrice <= 0) {
 			System.out.println("Please enter Valid Price");
 			return;
