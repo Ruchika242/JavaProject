@@ -10,10 +10,18 @@ public class LicenseMain {
 
 		System.out.println("Enter the age");
 		lc.age = sc.nextInt();
-
-		System.out.println("Enter the current level");
-		lc.currentLevel = sc.next();
-
+		
+		if(lc.age<16) {
+			System.out.println("Your age is not appropriate for taking the license ");
+			return;
+		}
+		
+		System.out.println("Enter your current level");
+		lc.currentLevel=sc.next();
+		
+		System.out.println("Enter test type");
+		lc.testType=sc.next();
+		
 		lc.licenseIssued();
 
 		sc.close();
