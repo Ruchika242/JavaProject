@@ -5,15 +5,14 @@ public class Chocolates {
 	int addChocolatesOnce = 5;
 	int maxChocolates = 63;
 
-	void chocolateBox() {
-		while (currentChocolates + addChocolatesOnce<=63);
-			
-		{
-			currentChocolates+=addChocolatesOnce;
-			System.out.println("chocolates in box: " + currentChocolates);
-		}
-		
-		System.out.println("final no. of chocolates in box :"+currentChocolates);
 
+	void chocolateBox() {
+
+		for (int currentChocolates = 27; currentChocolates + addChocolatesOnce<=maxChocolates; currentChocolates += addChocolatesOnce) {
+			System.out.println("chocolates in box: " + (currentChocolates + addChocolatesOnce));
+		}
+
+		
 	}
+	
 }

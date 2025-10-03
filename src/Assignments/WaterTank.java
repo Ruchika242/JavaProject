@@ -2,8 +2,8 @@ package Assignments;
 
 public class WaterTank {
 	int waterTankCapacityinLitre= 100;
-	int bucketCapacityinLitre= 10;
-	int currentWaterInTank = 0;
+	int bucketCapacityinLitre= 20;
+	int currentWaterInTank = -5;
 	
 	void WaterTankCapcity() {
 		while(currentWaterInTank+bucketCapacityinLitre<=waterTankCapacityinLitre) {
@@ -11,7 +11,7 @@ public class WaterTank {
 			System.out.println("Water filled in Tank: " +currentWaterInTank);
 			
 		}
-		System.out.println("final water in tank" +currentWaterInTank);
+		 
 		
 	}
 
