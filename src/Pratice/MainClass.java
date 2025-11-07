@@ -18,8 +18,14 @@ public class MainClass {
 		//p.num=11;
 		//p.checkPrime();
 		
-		Reverse rv=new Reverse();
-		rv.doReverse();
+		//Reverse rv=new Reverse();
+		//rv.doReverse();
+		
+		Elements e = new Elements();
+		//e.printElements();
+		
+		//e.findMinMax();
+		e.sumAvg();
 		
 			
 		
